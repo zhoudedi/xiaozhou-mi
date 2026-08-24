@@ -4,9 +4,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/zhoudedi/xiaozhou-mi?style=flat-square)](https://github.com/zhoudedi/xiaozhou-mi/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/zhoudedi/xiaozhou-mi?style=flat-square)](https://github.com/zhoudedi/xiaozhou-mi/issues)
 
-# 小米运动自动刷步数
+# 小米运动zepp life（原小米运动） APP自动刷步数
 
-> 小米运动自动刷步数
+> zepp life（原小米运动） app自动刷步数
 
 ## Github Actions 部署指南
 
@@ -120,4 +120,35 @@
 
 ## 历史Star数 
 
-[![Stargazers over time](https://starchart.cc/zhoudedi/xiaozhou-mi.svg)](https://starchart.cc/zhoudedi/xiaozhou-mi)
+1.从应用商店下载 zepp life（原小米运动） app，打开软件并选择----没有账号？立即注册
+
+注：一定要在app中新注册zepp life账号。
+
+ 
+<img width="442" height="722" alt="image" src="https://github.com/user-attachments/assets/11307d8d-256d-4081-a028-95ab139a3d21" />
+
+ 
+
+2.注册之后，登录zepp life APP，在App首页，点击‘我的’->‘第三方接入’，绑定你需要 刷步的项目支付宝、微信、QQ等
+
+<img width="460" height="330" alt="image" src="https://github.com/user-attachments/assets/4e2b454a-a03f-4492-9881-794c8f0de1f3" />
+
+
+ 
+
+3.浏览器打开刷步网：http://xm.135top.com/
+
+输入（zepp life）账号和密码，点击登录。
+
+ 
+
+ 
+
+ 
+
+4.输入所需要的步数，点击提交即可同步。
+
+注：刷步可能存在延时，刷后等待十分钟左右再查看同步情况。
+
+若微信未同步请取消“amazfit华米”公众号关注，重新到zepp life app中绑定微信。
+
