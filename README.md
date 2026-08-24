@@ -8,6 +8,34 @@
 
 > zepp life（原小米运动） app自动刷步数
 
+## 开始前提下载zepp life（原小米运动） app配置绑定微信
+
+1.从应用商店下载 zepp life（原小米运动） app，打开软件并选择----没有账号？立即注册
+
+> 注：一定要在app中新注册zepp life账号。建议使用邮箱注册，后续如果刷步不成功可以在换一个邮箱。
+
+ 
+<img width="442" height="722" alt="image" src="https://github.com/user-attachments/assets/11307d8d-256d-4081-a028-95ab139a3d21" />
+
+ 
+
+2.注册之后，登录zepp life APP，在App首页，点击‘我的’->‘第三方接入’，绑定你需要 刷步的项目支付宝、微信、QQ等
+
+<img width="460" height="330" alt="image" src="https://github.com/user-attachments/assets/4e2b454a-a03f-4492-9881-794c8f0de1f3" />
+
+
+ 
+
+3.注册绑定完成之后在GitHub克隆仓库按照下面教程配置自己的账号密码，找到Github Actions有一个刷步运行一下。
+ 
+
+4.等待Github Actions 刷步运行结束后看看日志有没有成功更新的步数，可以在重新登录APP看看步数有没有提交同步，然后看看微信运动步数是否更新如果APP有更新微信步数没有重新关注公众号还是不行重新注册一个zepp life邮箱账号。
+
+> 注：刷步可能存在延时，刷后等待十分钟左右再查看同步情况。
+若微信未同步请取消“amazfit华米”公众号关注，重新到zepp life app中绑定微信。
+
+#下面是GitHub部署教程
+
 ## Github Actions 部署指南
 
 ### 一、Fork 此仓库
@@ -117,38 +145,4 @@
 7. 请各位在使用时Fork[主分支](https://github.com/zhoudedi/xiaozhou-mi/)，防止出现不必要的bug.
 
 8. 请注意，账号不是 [小米账号]，而是 [小米运动] 的账号。
-
-## 历史Star数 
-
-1.从应用商店下载 zepp life（原小米运动） app，打开软件并选择----没有账号？立即注册
-
-注：一定要在app中新注册zepp life账号。
-
- 
-<img width="442" height="722" alt="image" src="https://github.com/user-attachments/assets/11307d8d-256d-4081-a028-95ab139a3d21" />
-
- 
-
-2.注册之后，登录zepp life APP，在App首页，点击‘我的’->‘第三方接入’，绑定你需要 刷步的项目支付宝、微信、QQ等
-
-<img width="460" height="330" alt="image" src="https://github.com/user-attachments/assets/4e2b454a-a03f-4492-9881-794c8f0de1f3" />
-
-
- 
-
-3.浏览器打开刷步网：http://xm.135top.com/
-
-输入（zepp life）账号和密码，点击登录。
-
- 
-
- 
-
- 
-
-4.输入所需要的步数，点击提交即可同步。
-
-注：刷步可能存在延时，刷后等待十分钟左右再查看同步情况。
-
-若微信未同步请取消“amazfit华米”公众号关注，重新到zepp life app中绑定微信。
 
